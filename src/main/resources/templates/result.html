@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Raffle Thymeleaf Demo</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h1>RESULTADOS DEL SORTEO</h1>
+	<h3>ENHORABUENA A LOS PREMIADOS</h3>
+	<table border="1">
+      <tr th:each="winner : ${raffle.winners}">
+	    <td th:text="${winner}">Winner</td>
+	  </tr>
+    </table><br/><br/>		
+    <a href="/index">Submit another message</a>     
+</body>
+</html>
