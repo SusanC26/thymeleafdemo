@@ -1,7 +1,8 @@
 # thymeleafdemo
-Demo Thymeleaf + Spring MVC
 
-En este ejemplo se ha evolucionado el código para generar un informe pdf con la
+Demo Thymeleaf + Spring MVC + Generación PDF
+
+En este ejemplo se ha evolucionado el código de https://github.com/sebascastillo89/thymeleafdemo para generar un informe pdf con la
 
   Instrucciones:
 
